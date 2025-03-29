@@ -1,6 +1,6 @@
 -- List of allowed Client IDs (replace with actual Client IDs you want to allow)
 local allowedHWIDs = {
-    "615ad2c1-7776-4671-a180-a4ffbd9aaa3c",  -- Replace with actual Client ID(s)
+    "76a12993-7f86-427c-a10e-56dbd5b216bb",  -- Replace with actual Client ID(s)
     "7A1633DE-D656-4D0C-A6BC-E6A265281366",
     "7c1f42e0-1299-4c7f-8a55-662904c9d579",
     "26b6211b-1673-4da9-b787-97f79f107f22",
