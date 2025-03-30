@@ -1,9 +1,9 @@
 -- List of allowed Client IDs (replace with actual Client IDs you want to allow)
 local allowedHWIDs = {
-    "76a12993-7f86-427c-a10e-56dbd5b216bb",  -- Replace with actual Client ID(s)
-    "7A1633DE-D656-4D0C-A6BC-E6A265281366",  -- Another example Client ID
-    "7c1f42e0-1299-4c7f-8a55-662904c9d579",
-    "26b6211b-1673-4da9-b787-97f79f107f22",
+    "76a12993-7f86-427c-a10e-56dbd5b216bb",  -- cox phone
+    "7A1633DE-D656-4D0C-A6BC-E6A265281366",  -- cox pc
+    "7c1f42e0-1299-4c7f-8a55-662904c9d579",  -- dashawn3245
+    "26b6211b-1673-4da9-b787-97f79f107f22",  -- fool
 }
 
 -- Function to check if the player's Client ID is allowed
@@ -86,10 +86,10 @@ local buttons = {
 for _, buttonData in ipairs(buttons) do
     local button = Instance.new("TextButton")
     button.Name = buttonData.name .. "Button"
-    button.Size = UDim2.new(0, 150, 0, 40)
+    button.Size = UDim2.new(0, 120, 0, 35)
     button.Position = UDim2.new(0, 10, 0, buttonData.position)
     button.Text = buttonData.name
-    button.TextSize = 20
+    button.TextSize = 15
     button.TextColor3 = Color3.fromRGB(0, 255, 255)
     button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
     button.BackgroundTransparency = 0.3
@@ -1131,10 +1131,10 @@ scrollFrame:WaitForChild("StopAnimButton").MouseButton1Click:Connect(stopAnimati
 -- Create the Open/Close button
 local openCloseButton = Instance.new("TextButton")
 openCloseButton.Name = "OpenCloseButton"
-openCloseButton.Size = UDim2.new(0, 100, 0, 40)
+openCloseButton.Size = UDim2.new(0, 80, 0, 20)
 openCloseButton.Position = UDim2.new(0, 10, 0, 10)
-openCloseButton.Text = "Open"
-openCloseButton.TextSize = 20
+openCloseButton.Text = "Troll Emotes"
+openCloseButton.TextSize = 10
 openCloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 openCloseButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 openCloseButton.BackgroundTransparency = 0.3
